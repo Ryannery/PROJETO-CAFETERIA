@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+}
+
+.topo{
+    background-color: #604829;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+img{
+    width: 100px;
+    left: 15%;
+    position: relative;
+}
+
+.link{
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+
+a{
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 3px 5px 2px #000000;
+    letter-spacing: 2px;
+    color: #c4a47c;
+}
+
+.container-parallax1{
+    background-image: url(img/parallax-imagem1.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+
+h1{
+    text-align: center;
+    font-size: 92px;
+    color: #fff;
+    padding-top: 24%;
+    font-weight: normal;
+    font-family: "Oswald", serif;
+}
+
+.container-texto{
+    text-align: center;
+    margin: 50px 500px;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 80px 0px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #666;
+}
+
+h2{
+    padding-bottom: 30px;
+    font-size: 24px;
+    font-family: "Oswald", serif;
+    text-align: center;
+    color: #c4a47c;
+    letter-spacing: 2px;
+}
+
+.container-texto p{
+    max-width: 1024px;
+    padding: 0px 20px;
+    margin: 0 auto;
+    font-family: "Lato", "sans-serif";
+    line-height: 34px;
+    letter-spacing: 1px;
+    color: #666;
+    font-size: 18px;
+}
+
+.container-parallax2{
+    background-image: url(img/parallax-imagem2.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.texto-chave{
+    background-color: #85745f;
+    color: #fff;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 400px;
+    font-style: italic;
+    font-family: sans-serif;
+    position: relative;
+    top: 45%;
+    right: 0;
+    left: 0;
+}
+
+.container-parallax3{
+    background-image: url(img/parallax-imagem3.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.container-parallax4{
+    background-image: url(img/parallax-imagem4.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1000px; 
+    text-align: center;
+}
+
+.contato2{
+    background-color: #604829;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px -5px;
+    margin: 0px 700px;
+}
+
+iframe{
+    position: absolute;
+    top: 23%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container-contatos{
+    background-color: #604829;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 10px;
+    line-height: 30px;
+    width: 700px;
+    position: absolute;
+    bottom: 8%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.container-contatos p{
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    line-height: 36px;
+    text-shadow: 0px 6px 8px #000000;
+    text-align: center; 
+}
+
+.container-parallax5{
+    background-image: url(img/cafeteria.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 900px; 
+    text-align: center;
+}
+
+.fonte-branca{
+    color: #fff;
+    padding-top: 150px;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.texto-marrom{
+    color: #c4a47c;
+}
+
+.texto-branco{
+    color: #fff;
+}
+
+.container-rodape{
+    background-color: #000000;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    padding: 20px 0px;
+    line-height: 34px;
+    letter-spacing: 2px;
+}
+
+span{
+    color: #c4a47c;
+}
+
+.container-rodape a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+    background-image: url("./img/seta-para-cima.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #c4a47c;
+    border-radius: 4px;
+}
+
+.lista-horarios{
+    max-width: 768px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+}
+
+li{
+    position: relative;
+}
+
+li h3{
+    margin: 0px 0px 40px -650px;
+    color: #fff;
+
+}
+
+.lista-horarios li div {
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: #ACACAC
+}
+
+li p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+
+.container-parallax4 h2 {
+    width: 500px;
+    padding: 10px;
+    position: relative;
+    top: 10%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-size: 24px;
+    font-family: "Oswald", serif;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #604829;
+}
